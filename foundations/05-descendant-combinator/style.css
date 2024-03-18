@@ -1,0 +1,6 @@
+div.container > p.text {
+    color: hsl(0, 91%, 65%);
+    background-color: hsl(51, 93%, 71%);
+    font-size: 20px;
+    text-align: center;
+}
