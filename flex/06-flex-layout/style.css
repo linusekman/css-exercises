@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -24,4 +27,39 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+
+/* my solution */
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: hsl(0, 0%, 90%);
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.left-links li a,
+.right-links li a {
+  color: inherit;
+  text-decoration: none;
 }
